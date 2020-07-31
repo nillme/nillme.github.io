@@ -91,3 +91,26 @@ body{
     line-height: 3.0;
     letter-spacing: 1px;
 }
+
+.works{
+    background-color: #99D4D9;
+    padding: 100px 30px;
+}
+.works-wrapper{
+    display: table;
+    width: 100%;
+    margin-top:80px;
+    table-layout: fixed;
+}
+.works-box{
+    display: table-cell;
+}
+.work-image{
+    display: block;
+    width: 100%;
+}
+.works-text{
+    margin: 70px 0;
+    line-height: 3.0;
+    letter-spacing: 1px;
+}
