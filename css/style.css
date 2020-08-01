@@ -114,3 +114,31 @@ body{
     line-height: 3.0;
     letter-spacing: 1px;
 }
+
+.contact{
+    padding: 100px 30px;
+    background-color: #888;
+    color: #fff;
+}
+.contact-wrapper{
+    display: table;
+    width: 80%;
+    margin: 50px auto 0;
+    table-layout: fixed;
+}
+.contact-box{
+    display: table-cell;
+}
+.contact-text{
+    line-height: 3.0;
+    letter-spacing:1px;
+}
+
+.contact-icon{
+    width: 130px;
+    height: 130px;
+    margin: 50px auto;
+    color: #008b8b;
+    font-size: 8rem;
+    line-height: 130px;
+}
