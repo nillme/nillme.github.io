@@ -34,7 +34,7 @@ body{
     height: 2px;
     margin: 0 30px;
     background-color: #fff;
-    verticial-align: middle;
+    vertical-align: middle;
 }
 .site-title{
     margin: 0 0 30px;
@@ -42,7 +42,7 @@ body{
 }
 .site-description{
     margin-bottom: 50px;
-    color: #fff;
+    color: #fff;          
     font-size: 1.5rem;
 }
 .button{
