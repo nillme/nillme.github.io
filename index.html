@@ -1,13 +1,104 @@
 <!DOCTYPE html>
-<html lang="Ja">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimam-scale=1.0">
-    <title>NILLME</title>
-    <link rel= "stylesheet" href="css/style.css">
+    <title>Connecting to NILLME</title>
+    <link rel="stylesheet" href="css/style.css">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/brands.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/solid.min.css">
 </head>
 <body>
-    
+    <header class="header">
+        <p class="site-title-sub">Illustrator's Portfolio</p>
+        <h1 class="site-title">NILLME</h1>
+        <p class="site-description">Waiting for your request.</p>
+        <div class="buttons">
+            <a class="button" href="#about">ABOUT ME</a>
+            <a class="button" href="#works">PRODUCTS</a>
+            <a class="button" href="#contact">CONTACT</a>
+        </div>
+    </header>
+    <section class="about" id="about">
+         <h2 class="heading">ABOUT ME</h2>
+        <p class="about-text">
+            ご覧いただきありがとうございます。　NILLME(ニルメ)といいます。<br>
+            絵を描いたり、歌を歌ったり、ゲームをしたりしています。<br>
+            好きなことで(豊かに)食べていきたいです。<br>
+            このポートフォリオはコーディングの勉強を兼ねて作りました。ちょくちょく変えていこうと思っています。<br>
+            ご依頼お待ちしております。
+        </p>
+    </section>
+    <section class="works" id="works">
+        <h2 class="heading">PRODUCTS</h2>
+        <p class="work-text">※Pageボタンを押すと別タブでPIXIVに投稿した各作品イラストページが開きます。原寸画像です。</p>
+        <div class="works-wrapper">
+            <div class="works-box">
+                <img class="work-image" src="images/azimunegau.png" alt="作品１-ねがうちゃん">
+                <p class="work-text">
+                    使用ツールはCLIP STUDIO PAINTです。<br>
+                    <a href="https://www.pixiv.net/artworks/88876884" target="_blank "class="button">Page</a>
+                </p>
+            </div>
+            <div class="works-box">
+                <img class="work-image" src="images/ee.png" alt="作品２-ケモミミ">
+                <p class="work-text">
+                   使用ツールはCLIP　STUDIO PAINTです。<br>
+                    <a href="https://www.pixiv.net/artworks/88876857" target="_blank" class="button">Page</a>
+                </p>
+            </div>
+            <div class="works-box">
+                <img class="work-image" src="images/hpb (1).png" alt="作品３-背景">
+                <p class="work-text">
+                    使用ツールはCLIP　STUDIO PAINTです。<br>
+                <a href="https://www.pixiv.net/artworks/88876742" target="_blank" class="button">Page</a>
+                </p>
+            </div>
+            <div class="works-box">
+                <img class="work-image" src="images/イラスト7 (1) (1).png" alt="作品４-二次創作">
+                <p class="work-text">
+                    使用ツールはCLIP STUDIO PAINTです。<br>
+                    <a href="https://www.pixiv.net/artworks/83492848" target="_blank" class="button">Page</a>
+                </p>
+            </div>
+        </div>
+        <p class="works-text">このほかにもオリジナルや二次創作作品をPIXIV・Twitterにあげています。<br>
+            下記CONTACTに載せているリンクから飛べます。<br>
+        そちらもぜひご覧ください。</p>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="heading">CONTACT</h2>
+        <p class="contact-text">
+            私のSNSなどです。ご依頼お待ちしております。
+            <div class="contact-wrapper">
+              <div class="contact-box">
+                <a href="https://twitter.com/nillme_">
+                <i class="contact-icon fab fa-twitter"></i></a>
+                <p class="contact-text">
+                    私のTwitterです。<br>
+                    何かしらイラストを描いたときに多分一番早く載せている所です。適当なツイートも多いです。<br>
+                    ご依頼、ご連絡はDMにいただけると嬉しいです。
+                </p>
+                <a href="https://www.pixiv.net/users/16897680">
+                <i class="contact-icon fas fa-parking"></i></a>
+                <p class="contact-text">
+                    私のpixivです。<br>
+                    イラストだけを載せています。<br>
+                    多分一番画質がいいです。
+                </p>
+                <a href="mailto:nillmerly@gmail.com">
+                <i class="contact-icon fas fa-envelope"></i></a>
+                <p class="contact-text">
+                    私のメールアドレスです。<br>
+                    ご依頼などお待ちしています。
+                </p>
+              </div>
+            </div>
+        </p>
+    </section>
+    <footer class="footer">
+        ©　NILLME
+    </footer>
 </body>
 </html>
